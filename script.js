@@ -4,6 +4,7 @@ const carrinho = []
 const btnCarrinho = document.querySelector('#btnCarrinho')
 const modalCarrinho = document.querySelector('#modalCarrinho')
 const listaCarrinho = document.querySelector('#listaCarrinho')
+const totalGeralCarrinho = document.querySelector('#totalGeralCarrinho')
 const btnFecharModal = document.querySelector('#btnFecharModal')
 const btnEnviarPedido = document.querySelector('#btnEnviarPedido')
 
@@ -81,13 +82,18 @@ function fecharModalCarrinho() {
 
 function renderCarrinho() {
     listaCarrinho.innerHTML = ''
+    let totalGeral = 0
 
     if (carrinho.length === 0) {
         listaCarrinho.innerHTML = '<li>Carrinho vazio.</li>'
+        totalGeralCarrinho.textContent = 'Total: R$ 0,00'
         return
     }
 
     carrinho.forEach(item => {
+        const subtotal = item.produto.preco * item.quantidade
+        totalGeral += subtotal
+
         listaCarrinho.innerHTML += `<li class="item-carrinho">
             <div class="item-carrinho-topo">
                 <span>${item.produto.nome}</span>
@@ -98,8 +104,11 @@ function renderCarrinho() {
                 <span class="qtd-valor">${item.quantidade}</span>
                 <button class="btn-qtd" data-acao="aumentar" data-index="${item.indiceProduto}">+</button>
             </div>
+            <p class="item-subtotal">Subtotal: R$ ${subtotal.toFixed(2)}</p>
         </li>`
     })
+
+    totalGeralCarrinho.textContent = `Total: R$ ${totalGeral.toFixed(2)}`
 }
 
 listaCarrinho.addEventListener('click', evento => {

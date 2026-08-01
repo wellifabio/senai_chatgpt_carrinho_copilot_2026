@@ -237,6 +237,19 @@ footer h2 {
 	font-weight: 800;
 }
 
+.item-subtotal {
+	font-weight: 700;
+	color: #8f2f12;
+}
+
+#totalGeralCarrinho {
+	margin: 4px 0 16px;
+	font-size: 1.1rem;
+	font-weight: 800;
+	color: #5f2410;
+	text-align: right;
+}
+
 .modal-acoes {
 	display: flex;
 	justify-content: flex-end;
