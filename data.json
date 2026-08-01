@@ -1,0 +1,74 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "nome": "Hamburguer",
+            "descricao": "Pão tipo brioche, hamburguer 180g, molho da casa",
+            "preco": 10.00,
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVa87Z2eJEKpRIgkduIyoCrB63qZ58CrUdzd8Vnmsq-A&s=10"
+        },
+        {
+            "id": 2,
+            "nome": "X-burguer",
+            "descricao": "Pão tipo brioche, hamburguer 180g, queijo, molho da casa",
+            "preco": 15.00,
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0uiOMS3WW0QRounGEPnFzb_FTa0IcE4JaUxmfxgHNdA&s=10"
+        },
+        {
+            "id": 3,
+            "nome": "X-salada",
+            "descricao": "Pão tipo brioche, hamburguer 180g, alface, tormate, molho da casa",
+            "preco": 15.00,
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW-vHlEPrX86pkiikhPAd6b5wbeg2MFBIoXCufuBUdag&s=10"
+        },
+        {
+            "id": 4,
+            "nome": "X-bacon",
+            "descricao": "Pão tipo brioche, hamburguer 180g, queijo, alface, tormate, bacon, molho da casa",
+            "preco": 25.00,
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYrc01qZMMPwUERS7uY1u1WzluZGBa_dNUYzafvoFmfw&s=10"
+        },
+        {
+            "id": 5,
+            "nome": "X-egg",
+            "descricao": "Pão tipo brioche, hamburguer 180g, queijo, alface, tormate, ovo, molho da casa",
+            "preco": 25.00,
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD7MWH_lUpAab8Wsa7MOQjud4l2kuGUaGRHL0-xmih3w&s=10"
+        },
+        {
+            "id": 6,
+            "nome": "X-bacon egg",
+            "descricao": "Pão tipo brioche, hamburguer 180g, queijo, bacon, ovo, molho da casa",
+            "preco": 30.00,
+            "img":"https://www.receiteria.com.br/wp-content/uploads/receitas-de-x-egg-3-730x449.jpg"
+        },
+        {
+            "id": 7,
+            "nome": "X-tudo",
+            "descricao": "Pão tipo brioche, hamburguer 180g, queijo, alface, tormate, bacon, ovo, molho da casa",
+            "preco": 35.00,
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqAskFwnlFR3o7S14zvC-oi_uEJMHffS5v_fJY-VVu5Q&s=10"
+        },
+        {
+            "id": 8,
+            "nome": "Batata frita",
+            "descricao": "Batata frita com molho da casa",
+            "preco": 10.00,
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRukn7LuBUAP9qJe4PzgnJzGOX6dgNN40sEE-vOqiHYbg&s=10"
+        },
+        {
+            "id": 9,
+            "nome": "Coca-cola lata",
+            "descricao": "Coca-cola lata 350ml",
+            "preco": 8.00,
+            "img":"https://hiperideal.vtexassets.com/arquivos/ids/225913/7894900010015_Coca-Cola-Original-350ML_1.png?v=638648768383600000"
+        },
+        {
+            "id": 10,
+            "nome": "Guaraná lata",
+            "descricao": "Guaraná lata 350ml",
+            "preco": 8.00,
+            "img":"https://carrefourbrfood.vtexassets.com/arquivos/ids/8969235/refrigerante-guarana-antarctica-350ml-1.jpg?v=637364778200030000"
+        }
+    ]
+}
