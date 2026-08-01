@@ -1,0 +1,1 @@
+# senai_chatgpt_carrinho_copilot_2026
